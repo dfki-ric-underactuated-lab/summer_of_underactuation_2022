@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Dr. rer. nat. Shivesh Kumar" />
+  <title>Summer of Underactuation 2022</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="style.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Summer of Underactuation 2022</h1>
+<p class="author">Dr. rer. nat. Shivesh Kumar</p>
+</header>
+<div class="header_links">
+  <a href="https://github.com/dfki-ric-underactuated-lab/"><i class="fa fa-github" style="font-size:36px; padding:1em;"></i></a>
+</div>
+<figure>
+<img src="static/figures/compressed/Group_photo_SoU_initial.jpg" alt="" /><figcaption>Summer of Underactuation 2022 Group Photo Beginning of the Day (left to right: Mahdi Javadi, Gabriele Fadini, Raghav Soni, Shivesh Kumar, Antonio López Rivera, Paula Stocco, Junming Lim, Federico Girlanda, Noah Wechtler, Pelayo Peñarroya)</figcaption>
+</figure>
+<h1 id="event-summary">Event Summary</h1>
+<p>The Underactuated Lab at DFKI Robotics Innovation Center is committed to pushing the limits of our robots in order to achieve animal-like physical/athletic intelligence. The lab is hosting a bunch of exchange students this summer with diverse backgrounds from all over the world with a shared vision of developing athletic intelligence for underactuated robotic systems. The Summer of Underactuation 2022 event intends to highlight the scientific work of the exchange students working with the underactuated lab to everyone working at DFKI-RIC. We invite you to join us over lunchtime on <strong>15.07.22 (Friday) from 12:00 to 15:00 in B0.10 seminar room</strong> to enjoy monkey like brachiation movements of Acromonk robot, jumping with monopeds, balance of legged systems, latest insights into reinforcement learning for achieving dynamic movements, design and motion co-optimization for quadrupeds and how we can generate stability certificates for the control of underactuated systems.</p>
+<table>
+<colgroup>
+<col style="width: 11%" />
+<col style="width: 71%" />
+<col style="width: 16%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Time Slot</th>
+<th>Title of the presentation</th>
+<th>Speaker</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>12:00 - 12:05</td>
+<td><a href="#welcome-note-by-prof.-frank-kirchner">Welcome Note</a></td>
+<td>Prof. Frank Kirchner</td>
+</tr>
+<tr class="even">
+<td>12:05 - 12:15</td>
+<td><a href="#foreword-summer-of-underactuation-2022-by-dr.-shivesh-kumar">Foreword: Summer of Underactuation 2022</a></td>
+<td>Dr. Shivesh Kumar</td>
+</tr>
+<tr class="odd">
+<td>12:15 - 12:30</td>
+<td><a href="#mechatronic-design-and-control-of-an-underactuated-brachiation-robot-by-mahdi-javadi">Mechatronic Design and Control of an Underactuated Brachiation Robot</a></td>
+<td>Mahdi Javadi</td>
+</tr>
+<tr class="even">
+<td>12:30 - 12:45</td>
+<td><a href="#underactuated-brachiation-on-the-acromonk-system-by-paula-stocco">Underactuated Brachiation on the AcroMonk System</a></td>
+<td>Paula Stocco</td>
+</tr>
+<tr class="odd">
+<td>12:45 - 13:00</td>
+<td><a href="#roa-computation-via-lyapunov-based-methods-for-canonical-underactuated-robots-by-federico-girlanda">RoA Computation via Lyapunov based methods for Canonical Underactuated Robots</a></td>
+<td>Federico Girlanda</td>
+</tr>
+<tr class="even">
+<td>13:00 - 13:15</td>
+<td><a href="#balancing-of-humanoid-robots-using-linear-quadratic-regulators-by-noah-wechtler">Balancing of Humanoid Robots using Linear Quadratic Regulators</a></td>
+<td>Noah Wechtler</td>
+</tr>
+<tr class="odd">
+<td>13:15 - 13:45</td>
+<td>Lunch Break and Open Discussion (Free Pizzas)</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>13:45 - 14:00</td>
+<td><a href="#development-and-analysis-of-reinforcement-learning-based-controllers-for-underactuated-systems-by-raghav-soni">Development and Analysis of Reinforcement Learning based controllers for Underactuated Systems</a></td>
+<td>Raghav Soni</td>
+</tr>
+<tr class="odd">
+<td>14:00 - 14:15</td>
+<td><a href="#optimal-design-of-a-variable-stiffness-leg-by-jungmin-lim">Optimal Design of a Variable Stiffness Leg</a></td>
+<td>Jungmin Lim</td>
+</tr>
+<tr class="even">
+<td>14:15 - 14:30</td>
+<td><a href="#monocular-vision-based-hazard-detection-for-autonomous-landing-on-comets-and-asteroids-by-pelayo-peñarroya">Monocular Vision - based Hazard Detection for Autonomous Landing on Comets and Asteroids</a></td>
+<td>Pelayo Peñarroya</td>
+</tr>
+<tr class="odd">
+<td>14:30 - 14:45</td>
+<td><a href="#design-and-control-co-optimization-for-legged-robot-by-gabriele-fadini">Design and Control Co-optimization for Legged Robots</a></td>
+<td>Gabriele Fadini</td>
+</tr>
+<tr class="even">
+<td>14:45 - 15:00</td>
+<td><a href="#monoped-hopping-spatial-motion-and-robust-experimental-setups-by-antonio-lópez-rivera">Monoped Hopping, Spatial Motion, and Robust Experimental Setups</a></td>
+<td>Antonio López Rivera</td>
+</tr>
+</tbody>
+</table>
+<figure>
+<img src="static/figures/compressed/ulab_exchangestudents_map.png" alt="" /><figcaption>Summer of Underactuation 2022 attracted exchange students from all over the world!</figcaption>
+</figure>
+<figure>
+<img src="static/figures/compressed/Group_photo_SoU_final.jpg" alt="" /><figcaption>Summer of Underactuation 2022 Group Photo End of the Day (left to right: Frank Kirchner, Raghav Soni, Gabriele Fadini, Federico Girlanda, Paula Stocco, Junming Lim, Antonio López Rivera, Daniel Harnack, Noah Wechtler, Mahdi Javadi, Shivesh Kumar)</figcaption>
+</figure>
+<h1 id="event-video-proceedings">Event Video Proceedings</h1>
+<p>In the following, you can find the video proceedings from the event. The recorded talks include the presentations and live demonstrations on real prototypes.</p>
+<h2 id="welcome-note-by-prof.-frank-kirchner">Welcome Note by Prof. Frank Kirchner</h2>
+<p>This talk is a brief welcome address from the director of Robotics Innovation Center, DFKI GmbH, Prof. Frank Kirchner. The talk starts with a brief history of brown bag talk events at the institute and talks about the establishment of the underactuated lab which is built around the ideology of free to think, free to test and free to fail.</p>
+<video src="static/videos/part_01/Frank_Kirchner.mp4" controls="controls" style="max-width: 48em;">
+</video>
+<h2 id="foreword-summer-of-underactuation-2022-by-dr.-shivesh-kumar">Foreword: Summer of Underactuation 2022 by Dr. Shivesh Kumar</h2>
+<p>This talk is a foreword on the summer of underactuation event 2022. The event is hosted by the underactuated lab which has been established at DFKI Robotics Innovation Center since 2021. The underactuated lab is the flagship project of the Advanced AI Team: Mechanics &amp; Control at the institute. The talk provides some information on the team structure and its vision, introduces the problem of underactuation and presents some recent achievements of the underactuated lab.</p>
+<video src="static/videos/part_01/Shivesh_Kumar.mp4" controls="controls" style="max-width: 48em;">
+</video>
+<h2 id="mechatronic-design-and-control-of-an-underactuated-brachiation-robot-by-mahdi-javadi">Mechatronic Design and Control of an Underactuated Brachiation Robot by Mahdi Javadi</h2>
+<p>The talk addresses the mechatronics integration and optimal locomotion of an ape-like brachiation robot called AcroMonk. AcroMonk is a portable wireless robot with an onboard battery, seeking to imitate the swing motion of the apes and gibbons. Optimal locomotion for this robot is composed of trajectory optimization and stabilization. The brachiation is split into sub-behaviors, and the optimized trajectories are designed with the Direct collocation method. Time-Varying Linear Quadratic Regulator (TVLQR) and Proportional-Derivative (PD) controller are employed for trajectory stabilization purposes. The mechatronics’s design functionality and proposed locomotion strategies of some sub-behaviors are evaluated through simulation and hardware experiments.</p>
+<video src="static/videos/part_01/Mahdi_Javadi.mp4" controls="controls" style="max-width: 48em;">
+</video>
+<h2 id="underactuated-brachiation-on-the-acromonk-system-by-paula-stocco">Underactuated Brachiation on the AcroMonk System by Paula Stocco</h2>
+<p>AcroMonk is an underactuated system designed in-house to achieve brachiation, the motion primates make when swinging through canopies and across monkey bars. This project builds on prior achievements using the existing hardware design and fundamental motions. Using the control principles previously employed, direct collocation for trajectory optimization and Time-Varying Linear Quadratic Regulator (TVLQR) for trajectory stabilization, we now aim to complete the full brachiation motion by chaining several fundamental motions. Additional goals are to use the cyclic natural of brachiation to achieve several swings in a row, with the intention of bringing underactuated systems closer to realizing full robotic motion.</p>
+<video src="static/videos/part_01/Paula_Stocco.mp4" controls="controls" style="max-width: 48em;">
+</video>
+<h2 id="roa-computation-via-lyapunov-based-methods-for-canonical-underactuated-robots-by-federico-girlanda">RoA computation via Lyapunov-based methods for canonical Underactuated robots by Federico Girlanda</h2>
+<p>The region of attraction(RoA) estimation gives an intuitive point of view to the controller robustness to uncertainty in the environment, parametric model uncertainty, and disturbances. It comes up with a state space representation of the set of states that are guaranteed to be stabilized despite the non-idealities. The different methods considered are the SOS approach and a simulation-based probabilistic one. Both methods have been implemented for a time-invariant RoA analysis and recently also in their time-varying version. These results have been validated using the torque-limited simple pendulum of the underactuated laboratory.</p>
+<video src="static/videos/part_01/Federico_Girlanda.mp4" controls="controls" style="max-width: 48em;">
+</video>
+<h2 id="balancing-of-humanoid-robots-using-linear-quadratic-regulators-by-noah-wechtler">Balancing of Humanoid Robots using Linear Quadratic Regulators by Noah Wechtler</h2>
+<p>Balancing is a task humans learn early on in their life, which plays a vital role in performing everyday tasks. Naturally, a humanoid robot whose task it is to interact with the environment should be capable of balancing even when disturbances are present. In the early days of humanoid control, joints were individually position controlled with high gain PID controllers. This contrasts with humans, which instinctively use their entire body to balance. While PID controllers are a powerful tool due to the rich linear control literature, it is difficult to capture the complex couplings between the joints of a humanoid, which leads to unnatural looking movement of the robot. The Linear Quadratic Regulator (LQR) appears like a promising method to include information about joint couplings locally, while staying in the realm of linear control theory. The LQR controller will be implemented on the RH5 robot. The controllers’ disturbance rejection capabilities will then be tested via push tests.</p>
+<video src="static/videos/part_01/Noah_Wechtler.mp4" controls="controls" style="max-width: 48em;">
+</video>
+<h2 id="development-and-analysis-of-reinforcement-learning-based-controllers-for-underactuated-systems-by-raghav-soni">Development and analysis of Reinforcement learning based controllers for underactuated systems by Raghav Soni</h2>
+<p>One of the major barriers in implementing the RL algorithms on real systems is simulation to reality gap, also known as sim2real gap. The goal of the project is to develop controllers for various underactuated systems using Reinforcement Learning with a special emphasis on trying to narrow the sim2real gap by either trying to train directly on the real system when possible, making the policies robust by introducing additional disturbances or by making the simulations more accurate by doing system identification. The developed controllers will be compared with the classical controllers in terms of performance and tuning required.</p>
+<video src="static/videos/part_02/Raghav_Soni.mp4" controls="controls" style="max-width: 48em;">
+</video>
+<h2 id="optimal-design-of-a-variable-stiffness-leg-by-jungmin-lim">Optimal Design of a Variable Stiffness Leg by Jungmin Lim</h2>
+<p>Optimality is a crucial criterion for many machine applications and robots, often determining their success or failure. In nature, evolutionary processes created a wealth of successful or optimal organisms. Similarly, optimal designs are often sought in engineering applications, bearing two main challenges. First, the scope of optimality and the set of considered parameters must be defined. As such, optimal design is e.g., connected to mechanism synthesis at one end and optimal control to the other. Second, the task of the machine and its underlying criteria for optimality must be defined. In the context of variable stiffness mechanisms, a jumping leg will be devised, giving rise to optimal design strategies. The possibility of incorporating snap-through instabilities is one of the aspects that can lead to a successful implementation.</p>
+<video src="static/videos/part_02/Jungmin_Lim.mp4" controls="controls" style="max-width: 48em;">
+</video>
+<h2 id="monocular-vision-based-hazard-detection-for-autonomous-landing-on-comets-and-asteroids-by-pelayo-peñarroya">Monocular Vision-based Hazard Detection for Autonomous Landing on Comets and Asteroids by Pelayo Peñarroya</h2>
+<p>Future space missions will include large-scale exploration of asteroids and comets for scientific purposes and for resource collection. Many missions require autonomous systems for landing due to round-trip communication delays. The autonomous landing systems will require the knowledge of hazards on the surface of the asteroid/comet so that it can perform guidance and control to ensure a safe landing. Machine learning-based methods were developed at Deimos Space in Madrid for detecting hazards using a monocular camera and these were trained and validated on synthetic images. At DFKI, the hazard detection methods were validated and improved using images taken in space-like lighting conditions in the space hall.</p>
+<video src="static/videos/part_02/Pelayo_Penarroya.mp4" controls="controls" style="max-width: 48em;">
+</video>
+<h2 id="design-and-control-co-optimization-for-legged-robot-by-gabriele-fadini">Design and Control co-optimization for legged robot by Gabriele Fadini</h2>
+<p>Co-design is a novel method to optimize robotic platforms. It simultaneously selects the optimal hardware and motion in order to achieve a desired task. Leveraging the robot properties and its dynamics leads to designs with outstanding performance. The framework we developed at LAAS-CNRS optimizes motion, actuators and the scaling of the structure in order to ensure energy efficiency and controller robustness. The plan for the near future is to utilize our optimization tools in the case of more challenging robots and tasks collaborating with DFKI for the optimization and final realization of a new quadruple prototype.</p>
+<video src="static/videos/part_02/Gabriele_Fadini.mp4" controls="controls" style="max-width: 48em;">
+</video>
+<h2 id="monoped-hopping-spatial-motion-and-robust-experimental-setups-by-antonio-lópez-rivera">Monoped Hopping, Spatial Motion, and Robust Experimental Setups by Antonio López Rivera</h2>
+<p>The goal of this project is to create a testbench to research underactuated control algorithms for jumping and spatial motion with monopeds. The chief milestones and challenges in the development of the system will be discussed, and circular motion of the monoped will be demonstrated. Lastly, development for systems undergoing fast iteration and the interface developed between control and low-level logic to tackle it will be discussed. The focus of research in the immediate future is on advanced spatial motion algorithms, and work will continue to refine the system and its accessories, improving their role as a multi-purpose test bench.</p>
+<video src="static/videos/part_02/Antonio_Lopez_Rivera.mp4" controls="controls" style="max-width: 48em;">
+</video>
+<footer>
+  <img src="static/ulab.gif" style="width:250px">
+  <img src="static/logo.svg" style="width:250px">
+</footer>
+</body>
+</html>
